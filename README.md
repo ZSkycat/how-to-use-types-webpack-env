@@ -61,6 +61,9 @@ node environment
 /// <reference path="../node_modules/@types/webpack-env/index.d.ts" />
 ```
 
+## Related Issues
+https://github.com/DefinitelyTyped/DefinitelyTyped/issues/11324
+
 ## License
 ```
        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
