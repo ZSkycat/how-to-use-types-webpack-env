@@ -11,6 +11,6 @@
         "types": ["webpack-env"],
     },
     "include": [
-        ".",
+        "./**/*",
     ],
 }

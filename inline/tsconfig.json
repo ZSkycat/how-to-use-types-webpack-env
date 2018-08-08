@@ -4,13 +4,13 @@
         "rootDir": ".",
         "outDir": "./../dist",
         "target": "esnext",
-        "module": "commonjs",
+        "module": "esnext",
         "moduleResolution": "node",
         // type check
         "strict": true,
         "types": [],
     },
     "include": [
-        ".",
+        "./**/*",
     ],
 }
