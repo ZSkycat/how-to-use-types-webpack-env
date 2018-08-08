@@ -1,0 +1,21 @@
+{
+    "name": "how-to-use-types-webpack-env",
+    "version": "0.0.0",
+    "author": "ZSkycat",
+    "description": "How to use @types/webpack-env",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^10.5.7",
+        "@types/webpack-env": "^1.13.6",
+        "typescript": "^3.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ZSkycat/how-to-use-webpack-env"
+    },
+    "scripts": {
+        "frontend": "tsc -p ./frontend/tsconfig.json",
+        "backend": "tsc -p ./backend/tsconfig.json",
+        "inline": "tsc -p ./inline/tsconfig.json"
+    }
+}

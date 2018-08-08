@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        // base
+        "rootDir": ".",
+        "outDir": "./../dist",
+        "target": "esnext",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        // type check
+        "strict": true,
+        "types": ["node"],
+    },
+    "include": [
+        ".",
+    ],
+}

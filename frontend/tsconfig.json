@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        // base
+        "rootDir": ".",
+        "outDir": "./../dist",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        // type check
+        "strict": true,
+        "types": ["webpack-env"],
+    },
+    "include": [
+        ".",
+    ],
+}
